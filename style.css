@@ -1,0 +1,101 @@
+html {
+    background-color: white
+}
+body{
+    color: rgb(160, 133, 89);
+    margin: 0;
+    font-family: 'Franklin Gothic Medium';
+}
+
+/*class selector*/
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: rgb(107, 46, 42);
+    height: 150px;
+    line-height: 150px;
+}
+
+header a {
+    color: rgb(243, 234, 219);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/*Id selector*/
+#header-title {
+    display: block;
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(243, 234, 219);
+}
+
+#header-nav {
+    display: block;
+    float: right;
+    margin-top: 0;
+    text-decoration: none;
+}
+
+#header-nav li {
+    display: inline;
+    padding-left: 20px;
+}
+
+#header a:hover {
+    color: rgb(243, 234, 219);
+    cursor: pointer;
+}
+
+/* footer */
+footer {
+    background-color:  rgb(243, 234, 219);
+    position: absolute;
+    width: 100%;
+    font: bold 16px 'Franklin Gothic Medium';
+    /* font-weight, fontsize, font family */
+    padding: 55px 50px
+}
+
+footer .footer-left {
+    width: 40%;
+}
+
+footer .footer-left, footer .footer-right {
+    display: inline-block;
+    vertical-align: center;
+}
+
+footer .footer-links {
+    color: rgb(94, 79, 58);
+    margin: 20px 0 12px;
+    padding: 0;
+}
+
+footer .footer-links a {
+    text-decoration: none;
+    color: inherit;
+}
+
+footer .footer-name {
+    font-size: 14px;
+    font-weight: normal;
+    color: rgb(94, 79, 58);
+    margin: 0;
+}
+
+footer .footer-right{
+    color: rgb(94, 79, 58);
+    width: 35%;
+}
+
+footer .footer-right p {
+    display: inline-block;
+    color: rgb(94, 79, 58);
+    vertical-align: middle;
+    margin: 0;
+}
